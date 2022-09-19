@@ -1,0 +1,27 @@
+id: 130
+contentType: GLR
+description: Sme Card immagine singola per galleria (GLR)
+contentShape: |-
+    <!--Sme Card immagine singola per galleria (GLR)-->
+
+    <div class="col-12 col-lg-4">
+      <div class="it-grid-item-wrapper it-grid-item-overlay">
+          <a href="$content.getContentOnPageLink("sme_dettaglio")&modelId=129 "> 
+              <div class="img-responsive-wrapper">
+                  <div class="img-responsive">
+                      <div class="img-wrapper">
+                          <img src="$content.img.getImagePath('0')" title="$content.img.text" alt="$content.img.text">
+                      </div>
+                  </div>
+              </div>
+              <span class="it-griditem-text-wrapper">
+                  <span class="it-griditem-text">
+                      $content.caption.text
+                  </span>
+                  <svg class="icon">
+                  <use href="/entando-de-app/cmsresources/smetemplate/img/sprite.svg#it-password-visible"></use>
+                  </svg>
+              </span>
+          </a>
+      </div>
+    </div>

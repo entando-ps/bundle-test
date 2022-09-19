@@ -1,0 +1,17 @@
+id: 139
+contentType: TST
+description: Sme risultato per lista (TST)
+contentShape: |-
+  <!--Sme risultato per lista (TST)-->
+   <div class="it-list-wrapper">
+    <ul class="it-list">
+    <li>
+     <a href="$content.getContentOnPageLink('sme_dettaglio')&modelId=509">
+        <div class="it-right-zone">
+        <span class="text">
+          $content.title.text
+        </span>
+        </div>
+     </a>
+     </li>
+    </ul>

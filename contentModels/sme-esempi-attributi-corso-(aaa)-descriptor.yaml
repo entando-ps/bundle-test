@@ -1,0 +1,65 @@
+id: 1
+contentType: AAA
+description: Sme esempio attributi per il corso
+contentShape: |-
+  $content.title.text           ATTRIBUTO titolo
+  ------------------------------------------------------------------------
+
+  $content.subtitle.text        ATTRIBUTO sottotitolo
+  ------------------------------------------------------------------------
+
+  $content.abstract.text        ATTRIBUTO estratto del testo
+  ------------------------------------------------------------------------
+
+  $content.body.text            ATTRIBUTO corpo del testo
+  ------------------------------------------------------------------------
+
+  $content.data.shortDate       ATTRIBUTO data
+  ------------------------------------------------------------------------
+
+  $content.autore.text          ATTRIBUTO autore 
+
+
+  ------------------------------------------------------------------------
+
+  <a href="$content.link.destination" >    ATTRIBUTO LINK 
+
+  ------------------------------------------------------------------------
+
+
+  <img src="$content.img.getImagePath("0")" title="$content.img.text" alt="$content.img.text"> ATTRIBUTO IMMAGINE
+
+  ------------------------------------------------------------------------
+
+  <a href="$content.allegato.attachPath">        ATTRIBUTO allegato singolo
+     Scarica $content.allegato.text
+  </a>     
+
+  ------------------------------------------------------------------------
+
+  #foreach ($item in $content.attach)            ATTRIBUTO lista allegati  
+      <a href="$item.attachPath"> 
+         $i18n.getLabel('SME_DOWNLOAD') 
+         &nbsp;<i class="fas fa-download"></i>
+     </a>     
+  #end
+
+  ------------------------------------------------------------------------
+
+
+  controllo se il link esiste. questo controllo può essere effettuato su tutti gli altri attributi
+  #if ( $content.link.destination != "" ) 
+   <a href="$content.link.destination" >
+  #end
+
+  ------------------------------------------------------------------------
+
+  $i18n.getLabel('SME_DOWNLOAD') esempio etichette o label per gestione del multilingua
+
+  ------------------------------------------------------------------------
+
+
+  <a href="$content.getContentOnPageLink("sme_dettaglio")&modelId=510 "> Con questo attributo pubblico il contenuto su un'altra pagina (sme_dettaglio) 
+                                                                         e lo pubblica con il template di contenuto con codice 510
+     $content.title.text
+  </a>

@@ -1,0 +1,176 @@
+id: 2006
+contentType: TST
+description: Sme Scheda descrittiva generica (TST)
+contentShape: |-
+    <!-- SME Scheda descrittiva (TST) -->
+    <div class="container">
+      <div class="px-4 documenti-dettaglio">
+          <div class="documenti-dettaglio-wrapper">
+                           <h2 class="section-title">
+                      $content.title.text 
+                  </h2>
+                  <hr>
+              <div class="row no-gutters scheda-descrittiva">
+                  #if ($content.attachment.size()==0 && $content.links.size()==0)                
+                  <div class="col-12 col-lg-12 text-justify">
+                  #if ($content.img.text != "" )                                
+                          #if ($content.body.text != "" )
+                          <div class="image-wrapper">
+                          #else
+                          <div class="image-wrapper-full">
+                          #end
+                              <button type="button" class="no-button" data-toggle="modal" data-target="#img-$content.getId()-modal">
+                                  <img class="wrapped-image" src="$content.img.getImagePath("0")" title="$content.img.text" alt="$content.img.text">
+                                  #if ($content.subtitle.text != "" )
+                                  <div class="image-caption">
+                                      $content.subtitle.text
+                                  </div>
+                                  #end
+                              </button>
+                          </div>
+                          #end
+                                  <div>
+                              $content.body.text
+                          </div>
+                  </div>
+                  #else
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  <div class="col-8 col-lg-7 text-justify">
+                      #if ($content.img.text != "" )                                
+                          #if ($content.body.text != "" )
+                          <div class="image-wrapper">
+                          #else
+                          <div class="image-wrapper-full">
+                          #end
+                              <button type="button" class="no-button" data-toggle="modal" data-target="#img-$content.getId()-modal">
+                                  <img class="wrapped-image" src="$content.img.getImagePath("0")" title="$content.img.text" alt="$content.img.text">
+                                  #if ($content.subtitle.text != "" )
+                                  <div class="image-caption">
+                                      $content.subtitle.text
+                                  </div>
+                                  #end
+                              </button>
+                          </div>
+                          #end
+                                  <div>
+                              $content.body.text
+                          </div>
+                  </div>
+                  #if ($content.attachment.size() !=0 || $Content.links.size()!=0)
+                  <div class="col-4  mx-auto">
+                  #end
+                      #if($content.attachment.size() !=0)
+                    <div class="link-list-wrapper link-list-wrapper-internal quick-link my-3">
+                              <ul class="link-list">
+                                  <li class="list-item active"> 
+                                      <span> $i18n.getLabel('ALLEGATI') </span>
+                                  </li>
+                                  #foreach ($item in $content.attachment)                             
+                                  <li class="list-item">      
+                                      <a class="nav-link" href="$item.attachPath" target="_blank" title="$item.text" alt="$item.text">                                        
+                                          <div class="nav-link-left">  
+                                              <svg class="icon">
+                                              <use xlink:href="/entando-de-app/cmsresources/smetemplate/img/sprite.svg#it-download"></use>
+                                              </svg>
+                                              $item.text   
+                                          </div>                                        
+                                      </a>
+                                  </li>
+                                  #end                                
+                              </ul>
+                          </div>
+                          #end
+                          #if($content.links.size() !=0)
+                          <div class="link-list-wrapper link-list-wrapper-internal quick-link my-3">
+                              <ul class="link-list">
+                                  <li class="list-item active"> 
+                                      <span> $i18n.getLabel('CDO_link') </span>
+                                  </li>
+                                  #foreach ($item in $content.links)
+                                                                  <li class="list-item">      
+                                      <a class="nav-link" href="$item.destination" target="_blank" title="Vai alla pagina: $item.text">                                     
+                                          <div class="nav-link-left">  
+                                              <svg class="icon">
+                                              <use xlink:href="/entando-de-app/cmsresources/smetemplate/img/sprite.svg#it-link"></use>
+                                              </svg>
+                                              $item.text   
+                                          </div>                                        
+                                      </a>
+                                  </li>
+                  #end                            
+                              </ul>
+                          </div>
+                          #end
+                  </div>
+                  #end
+              </div>
+                
+                
+                
+                
+                
+                
+                #if ( $content.images.size() !=0)                     
+                          <div>                     
+                              <span class="section-title"> $i18n.getLabel('IMMAGINI_ALLEGATE') </span>
+                              #foreach ($item in $content.images)                         
+                              <div class="image-wrapper">
+                                  <button type="button" class="no-button" data-toggle="modal" data-target="#img-$foreach.index-modal"  id="#img-$content.getId()-modal1">
+                                      <img class="wrapped-image" src="$item.getImagePath("0")" title="$item.text" alt="$item.text">
+                                  </button>
+                              </div> 
+                              #end                        
+                          </div>
+                          #end
+          </div>
+      </div>
+    </div>
+    #foreach ($item in $content.images)
+    <div class="sme-modal modal bd-example-modal-lg fade" tabindex="-1" role="dialog" id="img-$foreach.index-modal" aria-labelledby="exampleModalTitle">
+      <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+          <div class="modal-content">
+              <div class="modal-header">
+                  <h5 class="modal-title">
+                      $item.text 
+                  </h5>
+              </div>
+              <div class="modal-body">
+                  <img src="$item.getImagePath('0')" alt="$item.text" />
+              </div>
+              <div class="modal-footer">
+                  <button class="btn btn-primary btn-sm" data-dismiss="modal" type="button">
+                      Chiudi
+                  </button>
+              </div>
+          </div>
+      </div>
+    </div>
+    #end
+    <div class="sme-modal modal bd-example-modal-lg fade" tabindex="-1" role="dialog" id="img-$content.getId()-modal" aria-labelledby="exampleModalTitle">
+      <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+          <div class="modal-content">
+              <div class="modal-header">
+                  <h5 class="modal-title">
+                      $content.img.text
+                  </h5>
+              </div>
+              <div class="modal-body">
+                  <img src="$content.img.getImagePath("0")" title="$content.img.text" alt="$content.img.text">
+              </div>
+              <div class="modal-footer">
+                  <button class="btn btn-primary btn-sm" data-dismiss="modal" type="button">
+                      Chiudi
+                  </button>
+              </div>
+          </div>
+      </div>
+    </div>

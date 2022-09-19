@@ -1,0 +1,6 @@
+id: 501
+contentType: LOG
+description: Sme Logo piccolo musthead (LOG)
+contentShape: |2-
+   <!--Sme Logo piccolo musthead (LOG) -->
+  <img class="esercito-logo"  src="$content.img.getImagePath('0')" alt="$content.img.text" >

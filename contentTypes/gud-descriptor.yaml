@@ -1,0 +1,1319 @@
+code: GUD
+name: Sme Guide descrittive (GUD)
+status: "0"
+attributes:
+  - code: subtitle
+    type: Text
+    names:
+      en: subtitle
+      it: Sottitolo
+    roles: []
+    disablingCodes: []
+    mandatory: false
+    listFilter: false
+    indexable: false
+    validationRules:
+      minLength: null
+      maxLength: null
+      regex: null
+      rangeStartString: null
+      rangeEndString: null
+      rangeStartStringAttribute: null
+      rangeEndStringAttribute: null
+      equalString: null
+      equalStringAttribute: null
+      rangeStartDate: null
+      rangeEndDate: null
+      rangeStartDateAttribute: null
+      rangeEndDateAttribute: null
+      equalDate: null
+      equalDateAttribute: null
+      rangeStartNumber: null
+      rangeStartNumberAttribute: null
+      rangeEndNumber: null
+      rangeEndNumberAttribute: null
+      equalNumber: null
+      equalNumberAttribute: null
+      ognlValidation: null
+  - code: img
+    type: Image
+    names:
+      en: Image
+      it: Immagine
+    roles: []
+    disablingCodes: []
+    mandatory: false
+    listFilter: false
+    indexable: false
+    validationRules:
+      minLength: null
+      maxLength: null
+      regex: null
+      rangeStartString: null
+      rangeEndString: null
+      rangeStartStringAttribute: null
+      rangeEndStringAttribute: null
+      equalString: null
+      equalStringAttribute: null
+      rangeStartDate: null
+      rangeEndDate: null
+      rangeStartDateAttribute: null
+      rangeEndDateAttribute: null
+      equalDate: null
+      equalDateAttribute: null
+      rangeStartNumber: null
+      rangeStartNumberAttribute: null
+      rangeEndNumber: null
+      rangeEndNumberAttribute: null
+      equalNumber: null
+      equalNumberAttribute: null
+      ognlValidation: null
+  - code: title
+    type: Text
+    names:
+      en: Title
+      it: Titolo
+    roles: []
+    disablingCodes: []
+    mandatory: false
+    listFilter: true
+    indexable: true
+    validationRules:
+      minLength: null
+      maxLength: null
+      regex: null
+      rangeStartString: null
+      rangeEndString: null
+      rangeStartStringAttribute: null
+      rangeEndStringAttribute: null
+      equalString: null
+      equalStringAttribute: null
+      rangeStartDate: null
+      rangeEndDate: null
+      rangeStartDateAttribute: null
+      rangeEndDateAttribute: null
+      equalDate: null
+      equalDateAttribute: null
+      rangeStartNumber: null
+      rangeStartNumberAttribute: null
+      rangeEndNumber: null
+      rangeEndNumberAttribute: null
+      equalNumber: null
+      equalNumberAttribute: null
+      ognlValidation: null
+  - code: paragraf
+    type: Monolist
+    names:
+      it: Card link alle guide
+      en: Card link alle guide
+    roles: []
+    disablingCodes: []
+    mandatory: false
+    listFilter: false
+    indexable: false
+    validationRules:
+      minLength: null
+      maxLength: null
+      regex: null
+      rangeStartString: null
+      rangeEndString: null
+      rangeStartStringAttribute: null
+      rangeEndStringAttribute: null
+      equalString: null
+      equalStringAttribute: null
+      rangeStartDate: null
+      rangeEndDate: null
+      rangeStartDateAttribute: null
+      rangeEndDateAttribute: null
+      equalDate: null
+      equalDateAttribute: null
+      rangeStartNumber: null
+      rangeStartNumberAttribute: null
+      rangeEndNumber: null
+      rangeEndNumberAttribute: null
+      equalNumber: null
+      equalNumberAttribute: null
+      ognlValidation: null
+    nestedAttribute:
+      code: paragraf
+      type: Composite
+      name: null
+      names:
+        it: Card link alle guide
+        en: Card link alle guide
+      roles: []
+      disablingCodes: []
+      mandatory: false
+      listFilter: false
+      indexable: false
+      enumeratorStaticItems: null
+      enumeratorStaticItemsSeparator: null
+      enumeratorExtractorBean: null
+      validationRules:
+        minLength: null
+        maxLength: null
+        regex: null
+        rangeStartString: null
+        rangeEndString: null
+        rangeStartStringAttribute: null
+        rangeEndStringAttribute: null
+        equalString: null
+        equalStringAttribute: null
+        rangeStartDate: null
+        rangeEndDate: null
+        rangeStartDateAttribute: null
+        rangeEndDateAttribute: null
+        equalDate: null
+        equalDateAttribute: null
+        rangeStartNumber: null
+        rangeStartNumberAttribute: null
+        rangeEndNumber: null
+        rangeEndNumberAttribute: null
+        equalNumber: null
+        equalNumberAttribute: null
+        ognlValidation: null
+      nestedAttribute: null
+      compositeAttributes:
+        - code: mtitle
+          type: Text
+          name: Titolo paragrafo
+          names:
+            it: titolo paragrafo
+            en: titolo paragrafo
+          roles: []
+          disablingCodes: []
+          mandatory: false
+          listFilter: false
+          indexable: false
+          enumeratorStaticItems: null
+          enumeratorStaticItemsSeparator: null
+          enumeratorExtractorBean: null
+          validationRules:
+            minLength: null
+            maxLength: null
+            regex: null
+            rangeStartString: null
+            rangeEndString: null
+            rangeStartStringAttribute: null
+            rangeEndStringAttribute: null
+            equalString: null
+            equalStringAttribute: null
+            rangeStartDate: null
+            rangeEndDate: null
+            rangeStartDateAttribute: null
+            rangeEndDateAttribute: null
+            equalDate: null
+            equalDateAttribute: null
+            rangeStartNumber: null
+            rangeStartNumberAttribute: null
+            rangeEndNumber: null
+            rangeEndNumberAttribute: null
+            equalNumber: null
+            equalNumberAttribute: null
+            ognlValidation: null
+          nestedAttribute: null
+          compositeAttributes: null
+        - code: mdescr
+          type: Hypertext
+          name: Descrizione
+          names:
+            it: Descrizione
+            en: description
+          roles: []
+          disablingCodes: []
+          mandatory: false
+          listFilter: false
+          indexable: false
+          enumeratorStaticItems: null
+          enumeratorStaticItemsSeparator: null
+          enumeratorExtractorBean: null
+          validationRules:
+            minLength: null
+            maxLength: null
+            regex: null
+            rangeStartString: null
+            rangeEndString: null
+            rangeStartStringAttribute: null
+            rangeEndStringAttribute: null
+            equalString: null
+            equalStringAttribute: null
+            rangeStartDate: null
+            rangeEndDate: null
+            rangeStartDateAttribute: null
+            rangeEndDateAttribute: null
+            equalDate: null
+            equalDateAttribute: null
+            rangeStartNumber: null
+            rangeStartNumberAttribute: null
+            rangeEndNumber: null
+            rangeEndNumberAttribute: null
+            equalNumber: null
+            equalNumberAttribute: null
+            ognlValidation: null
+          nestedAttribute: null
+          compositeAttributes: null
+        - code: mimg
+          type: Image
+          name: Immagine paragrafo
+          names:
+            it: Immagine paragrafo
+            en: Immagine paragrafo
+          roles: []
+          disablingCodes: []
+          mandatory: false
+          listFilter: false
+          indexable: false
+          enumeratorStaticItems: null
+          enumeratorStaticItemsSeparator: null
+          enumeratorExtractorBean: null
+          validationRules:
+            minLength: null
+            maxLength: null
+            regex: null
+            rangeStartString: null
+            rangeEndString: null
+            rangeStartStringAttribute: null
+            rangeEndStringAttribute: null
+            equalString: null
+            equalStringAttribute: null
+            rangeStartDate: null
+            rangeEndDate: null
+            rangeStartDateAttribute: null
+            rangeEndDateAttribute: null
+            equalDate: null
+            equalDateAttribute: null
+            rangeStartNumber: null
+            rangeStartNumberAttribute: null
+            rangeEndNumber: null
+            rangeEndNumberAttribute: null
+            equalNumber: null
+            equalNumberAttribute: null
+            ognlValidation: null
+          nestedAttribute: null
+          compositeAttributes: null
+        - code: mpos
+          type: Enumerator
+          names:
+            it: Posizione
+            en: position
+          roles: []
+          disablingCodes: []
+          mandatory: false
+          listFilter: false
+          indexable: false
+          enumeratorStaticItems: "sinistra,destra,centro"
+          enumeratorStaticItemsSeparator: ","
+          validationRules:
+            minLength: null
+            maxLength: null
+            regex: null
+            rangeStartString: null
+            rangeEndString: null
+            rangeStartStringAttribute: null
+            rangeEndStringAttribute: null
+            equalString: null
+            equalStringAttribute: null
+            rangeStartDate: null
+            rangeEndDate: null
+            rangeStartDateAttribute: null
+            rangeEndDateAttribute: null
+            equalDate: null
+            equalDateAttribute: null
+            rangeStartNumber: null
+            rangeStartNumberAttribute: null
+            rangeEndNumber: null
+            rangeEndNumberAttribute: null
+            equalNumber: null
+            equalNumberAttribute: null
+            ognlValidation: null
+          nestedAttribute: null
+          compositeAttributes: null
+        - code: mlink
+          type: Link
+          name: link
+          names:
+            it: Link
+            en: link
+          roles: []
+          disablingCodes: []
+          mandatory: false
+          listFilter: false
+          indexable: false
+          enumeratorStaticItems: null
+          enumeratorStaticItemsSeparator: null
+          enumeratorExtractorBean: null
+          validationRules:
+            minLength: null
+            maxLength: null
+            regex: null
+            rangeStartString: null
+            rangeEndString: null
+            rangeStartStringAttribute: null
+            rangeEndStringAttribute: null
+            equalString: null
+            equalStringAttribute: null
+            rangeStartDate: null
+            rangeEndDate: null
+            rangeStartDateAttribute: null
+            rangeEndDateAttribute: null
+            equalDate: null
+            equalDateAttribute: null
+            rangeStartNumber: null
+            rangeStartNumberAttribute: null
+            rangeEndNumber: null
+            rangeEndNumberAttribute: null
+            equalNumber: null
+            equalNumberAttribute: null
+            ognlValidation: null
+          nestedAttribute: null
+          compositeAttributes: null
+  - code: intros
+    type: Monolist
+    names:
+      it: Introduzione
+      en: introduzione
+    roles: []
+    disablingCodes: []
+    mandatory: false
+    listFilter: false
+    indexable: false
+    validationRules:
+      minLength: null
+      maxLength: null
+      regex: null
+      rangeStartString: null
+      rangeEndString: null
+      rangeStartStringAttribute: null
+      rangeEndStringAttribute: null
+      equalString: null
+      equalStringAttribute: null
+      rangeStartDate: null
+      rangeEndDate: null
+      rangeStartDateAttribute: null
+      rangeEndDateAttribute: null
+      equalDate: null
+      equalDateAttribute: null
+      rangeStartNumber: null
+      rangeStartNumberAttribute: null
+      rangeEndNumber: null
+      rangeEndNumberAttribute: null
+      equalNumber: null
+      equalNumberAttribute: null
+      ognlValidation: null
+    nestedAttribute:
+      code: intros
+      type: Composite
+      name: null
+      names:
+        it: Introduzione
+        en: introduzione
+      roles: []
+      disablingCodes: []
+      mandatory: false
+      listFilter: false
+      indexable: false
+      enumeratorStaticItems: null
+      enumeratorStaticItemsSeparator: null
+      enumeratorExtractorBean: null
+      validationRules:
+        minLength: null
+        maxLength: null
+        regex: null
+        rangeStartString: null
+        rangeEndString: null
+        rangeStartStringAttribute: null
+        rangeEndStringAttribute: null
+        equalString: null
+        equalStringAttribute: null
+        rangeStartDate: null
+        rangeEndDate: null
+        rangeStartDateAttribute: null
+        rangeEndDateAttribute: null
+        equalDate: null
+        equalDateAttribute: null
+        rangeStartNumber: null
+        rangeStartNumberAttribute: null
+        rangeEndNumber: null
+        rangeEndNumberAttribute: null
+        equalNumber: null
+        equalNumberAttribute: null
+        ognlValidation: null
+      nestedAttribute: null
+      compositeAttributes:
+        - code: mdescr
+          type: Text
+          name: Titolo paragrafo
+          names:
+            it: titolo paragrafo
+            en: titolo paragrafo
+          roles: []
+          disablingCodes: []
+          mandatory: false
+          listFilter: false
+          indexable: false
+          enumeratorStaticItems: null
+          enumeratorStaticItemsSeparator: null
+          enumeratorExtractorBean: null
+          validationRules:
+            minLength: null
+            maxLength: null
+            regex: null
+            rangeStartString: null
+            rangeEndString: null
+            rangeStartStringAttribute: null
+            rangeEndStringAttribute: null
+            equalString: null
+            equalStringAttribute: null
+            rangeStartDate: null
+            rangeEndDate: null
+            rangeStartDateAttribute: null
+            rangeEndDateAttribute: null
+            equalDate: null
+            equalDateAttribute: null
+            rangeStartNumber: null
+            rangeStartNumberAttribute: null
+            rangeEndNumber: null
+            rangeEndNumberAttribute: null
+            equalNumber: null
+            equalNumberAttribute: null
+            ognlValidation: null
+          nestedAttribute: null
+          compositeAttributes: null
+        - code: mtitle
+          type: Hypertext
+          name: Descrizione del paragrafo
+          names:
+            it: Descrizione del paragrafo
+            en: paragraph description
+          roles: []
+          disablingCodes: []
+          mandatory: false
+          listFilter: false
+          indexable: false
+          enumeratorStaticItems: null
+          enumeratorStaticItemsSeparator: null
+          enumeratorExtractorBean: null
+          validationRules:
+            minLength: null
+            maxLength: null
+            regex: null
+            rangeStartString: null
+            rangeEndString: null
+            rangeStartStringAttribute: null
+            rangeEndStringAttribute: null
+            equalString: null
+            equalStringAttribute: null
+            rangeStartDate: null
+            rangeEndDate: null
+            rangeStartDateAttribute: null
+            rangeEndDateAttribute: null
+            equalDate: null
+            equalDateAttribute: null
+            rangeStartNumber: null
+            rangeStartNumberAttribute: null
+            rangeEndNumber: null
+            rangeEndNumberAttribute: null
+            equalNumber: null
+            equalNumberAttribute: null
+            ognlValidation: null
+          nestedAttribute: null
+          compositeAttributes: null
+        - code: mimage
+          type: Image
+          name: Immagine paragrafo
+          names:
+            it: Immagine paragrafo
+            en: Immagine paragrafo
+          roles: []
+          disablingCodes: []
+          mandatory: false
+          listFilter: false
+          indexable: false
+          enumeratorStaticItems: null
+          enumeratorStaticItemsSeparator: null
+          enumeratorExtractorBean: null
+          validationRules:
+            minLength: null
+            maxLength: null
+            regex: null
+            rangeStartString: null
+            rangeEndString: null
+            rangeStartStringAttribute: null
+            rangeEndStringAttribute: null
+            equalString: null
+            equalStringAttribute: null
+            rangeStartDate: null
+            rangeEndDate: null
+            rangeStartDateAttribute: null
+            rangeEndDateAttribute: null
+            equalDate: null
+            equalDateAttribute: null
+            rangeStartNumber: null
+            rangeStartNumberAttribute: null
+            rangeEndNumber: null
+            rangeEndNumberAttribute: null
+            equalNumber: null
+            equalNumberAttribute: null
+            ognlValidation: null
+          nestedAttribute: null
+          compositeAttributes: null
+  - code: access
+    type: Monolist
+    names:
+      it: Accesso al servizio
+      en: accesso al servizio
+    roles: []
+    disablingCodes: []
+    mandatory: false
+    listFilter: false
+    indexable: false
+    validationRules:
+      minLength: null
+      maxLength: null
+      regex: null
+      rangeStartString: null
+      rangeEndString: null
+      rangeStartStringAttribute: null
+      rangeEndStringAttribute: null
+      equalString: null
+      equalStringAttribute: null
+      rangeStartDate: null
+      rangeEndDate: null
+      rangeStartDateAttribute: null
+      rangeEndDateAttribute: null
+      equalDate: null
+      equalDateAttribute: null
+      rangeStartNumber: null
+      rangeStartNumberAttribute: null
+      rangeEndNumber: null
+      rangeEndNumberAttribute: null
+      equalNumber: null
+      equalNumberAttribute: null
+      ognlValidation: null
+    nestedAttribute:
+      code: access
+      type: Composite
+      name: null
+      names:
+        it: Accesso al servizio
+        en: accesso al servizio
+      roles: []
+      disablingCodes: []
+      mandatory: false
+      listFilter: false
+      indexable: false
+      enumeratorStaticItems: null
+      enumeratorStaticItemsSeparator: null
+      enumeratorExtractorBean: null
+      validationRules:
+        minLength: null
+        maxLength: null
+        regex: null
+        rangeStartString: null
+        rangeEndString: null
+        rangeStartStringAttribute: null
+        rangeEndStringAttribute: null
+        equalString: null
+        equalStringAttribute: null
+        rangeStartDate: null
+        rangeEndDate: null
+        rangeStartDateAttribute: null
+        rangeEndDateAttribute: null
+        equalDate: null
+        equalDateAttribute: null
+        rangeStartNumber: null
+        rangeStartNumberAttribute: null
+        rangeEndNumber: null
+        rangeEndNumberAttribute: null
+        equalNumber: null
+        equalNumberAttribute: null
+        ognlValidation: null
+      nestedAttribute: null
+      compositeAttributes:
+        - code: mdescr
+          type: Text
+          name: Titolo paragrafo
+          names:
+            it: titolo paragrafo
+            en: titolo paragrafo
+          roles: []
+          disablingCodes: []
+          mandatory: false
+          listFilter: false
+          indexable: false
+          enumeratorStaticItems: null
+          enumeratorStaticItemsSeparator: null
+          enumeratorExtractorBean: null
+          validationRules:
+            minLength: null
+            maxLength: null
+            regex: null
+            rangeStartString: null
+            rangeEndString: null
+            rangeStartStringAttribute: null
+            rangeEndStringAttribute: null
+            equalString: null
+            equalStringAttribute: null
+            rangeStartDate: null
+            rangeEndDate: null
+            rangeStartDateAttribute: null
+            rangeEndDateAttribute: null
+            equalDate: null
+            equalDateAttribute: null
+            rangeStartNumber: null
+            rangeStartNumberAttribute: null
+            rangeEndNumber: null
+            rangeEndNumberAttribute: null
+            equalNumber: null
+            equalNumberAttribute: null
+            ognlValidation: null
+          nestedAttribute: null
+          compositeAttributes: null
+        - code: mtitle
+          type: Hypertext
+          name: Descrizione del paragrafo
+          names:
+            it: Descrizione del paragrafo
+            en: paragraph description
+          roles: []
+          disablingCodes: []
+          mandatory: false
+          listFilter: false
+          indexable: false
+          enumeratorStaticItems: null
+          enumeratorStaticItemsSeparator: null
+          enumeratorExtractorBean: null
+          validationRules:
+            minLength: null
+            maxLength: null
+            regex: null
+            rangeStartString: null
+            rangeEndString: null
+            rangeStartStringAttribute: null
+            rangeEndStringAttribute: null
+            equalString: null
+            equalStringAttribute: null
+            rangeStartDate: null
+            rangeEndDate: null
+            rangeStartDateAttribute: null
+            rangeEndDateAttribute: null
+            equalDate: null
+            equalDateAttribute: null
+            rangeStartNumber: null
+            rangeStartNumberAttribute: null
+            rangeEndNumber: null
+            rangeEndNumberAttribute: null
+            equalNumber: null
+            equalNumberAttribute: null
+            ognlValidation: null
+          nestedAttribute: null
+          compositeAttributes: null
+        - code: mimage
+          type: Image
+          name: Immagine paragrafo
+          names:
+            it: Immagine paragrafo
+            en: Immagine paragrafo
+          roles: []
+          disablingCodes: []
+          mandatory: false
+          listFilter: false
+          indexable: false
+          enumeratorStaticItems: null
+          enumeratorStaticItemsSeparator: null
+          enumeratorExtractorBean: null
+          validationRules:
+            minLength: null
+            maxLength: null
+            regex: null
+            rangeStartString: null
+            rangeEndString: null
+            rangeStartStringAttribute: null
+            rangeEndStringAttribute: null
+            equalString: null
+            equalStringAttribute: null
+            rangeStartDate: null
+            rangeEndDate: null
+            rangeStartDateAttribute: null
+            rangeEndDateAttribute: null
+            equalDate: null
+            equalDateAttribute: null
+            rangeStartNumber: null
+            rangeStartNumberAttribute: null
+            rangeEndNumber: null
+            rangeEndNumberAttribute: null
+            equalNumber: null
+            equalNumberAttribute: null
+            ognlValidation: null
+          nestedAttribute: null
+          compositeAttributes: null
+  - code: configs
+    type: Monolist
+    names:
+      it: Configurazione
+      en: configurazione
+    roles: []
+    disablingCodes: []
+    mandatory: false
+    listFilter: false
+    indexable: false
+    validationRules:
+      minLength: null
+      maxLength: null
+      regex: null
+      rangeStartString: null
+      rangeEndString: null
+      rangeStartStringAttribute: null
+      rangeEndStringAttribute: null
+      equalString: null
+      equalStringAttribute: null
+      rangeStartDate: null
+      rangeEndDate: null
+      rangeStartDateAttribute: null
+      rangeEndDateAttribute: null
+      equalDate: null
+      equalDateAttribute: null
+      rangeStartNumber: null
+      rangeStartNumberAttribute: null
+      rangeEndNumber: null
+      rangeEndNumberAttribute: null
+      equalNumber: null
+      equalNumberAttribute: null
+      ognlValidation: null
+    nestedAttribute:
+      code: configs
+      type: Composite
+      name: null
+      names:
+        it: Configurazione
+        en: configurazione
+      roles: []
+      disablingCodes: []
+      mandatory: false
+      listFilter: false
+      indexable: false
+      enumeratorStaticItems: null
+      enumeratorStaticItemsSeparator: null
+      enumeratorExtractorBean: null
+      validationRules:
+        minLength: null
+        maxLength: null
+        regex: null
+        rangeStartString: null
+        rangeEndString: null
+        rangeStartStringAttribute: null
+        rangeEndStringAttribute: null
+        equalString: null
+        equalStringAttribute: null
+        rangeStartDate: null
+        rangeEndDate: null
+        rangeStartDateAttribute: null
+        rangeEndDateAttribute: null
+        equalDate: null
+        equalDateAttribute: null
+        rangeStartNumber: null
+        rangeStartNumberAttribute: null
+        rangeEndNumber: null
+        rangeEndNumberAttribute: null
+        equalNumber: null
+        equalNumberAttribute: null
+        ognlValidation: null
+      nestedAttribute: null
+      compositeAttributes:
+        - code: mdescr
+          type: Text
+          name: Titolo paragrafo
+          names:
+            it: titolo paragrafo
+            en: titolo paragrafo
+          roles: []
+          disablingCodes: []
+          mandatory: false
+          listFilter: false
+          indexable: false
+          enumeratorStaticItems: null
+          enumeratorStaticItemsSeparator: null
+          enumeratorExtractorBean: null
+          validationRules:
+            minLength: null
+            maxLength: null
+            regex: null
+            rangeStartString: null
+            rangeEndString: null
+            rangeStartStringAttribute: null
+            rangeEndStringAttribute: null
+            equalString: null
+            equalStringAttribute: null
+            rangeStartDate: null
+            rangeEndDate: null
+            rangeStartDateAttribute: null
+            rangeEndDateAttribute: null
+            equalDate: null
+            equalDateAttribute: null
+            rangeStartNumber: null
+            rangeStartNumberAttribute: null
+            rangeEndNumber: null
+            rangeEndNumberAttribute: null
+            equalNumber: null
+            equalNumberAttribute: null
+            ognlValidation: null
+          nestedAttribute: null
+          compositeAttributes: null
+        - code: mtitle
+          type: Hypertext
+          name: Descrizione del paragrafo
+          names:
+            it: Descrizione del paragrafo
+            en: paragraph description
+          roles: []
+          disablingCodes: []
+          mandatory: false
+          listFilter: false
+          indexable: false
+          enumeratorStaticItems: null
+          enumeratorStaticItemsSeparator: null
+          enumeratorExtractorBean: null
+          validationRules:
+            minLength: null
+            maxLength: null
+            regex: null
+            rangeStartString: null
+            rangeEndString: null
+            rangeStartStringAttribute: null
+            rangeEndStringAttribute: null
+            equalString: null
+            equalStringAttribute: null
+            rangeStartDate: null
+            rangeEndDate: null
+            rangeStartDateAttribute: null
+            rangeEndDateAttribute: null
+            equalDate: null
+            equalDateAttribute: null
+            rangeStartNumber: null
+            rangeStartNumberAttribute: null
+            rangeEndNumber: null
+            rangeEndNumberAttribute: null
+            equalNumber: null
+            equalNumberAttribute: null
+            ognlValidation: null
+          nestedAttribute: null
+          compositeAttributes: null
+        - code: mimage
+          type: Image
+          name: Immagine paragrafo
+          names:
+            it: Immagine paragrafo
+            en: Immagine paragrafo
+          roles: []
+          disablingCodes: []
+          mandatory: false
+          listFilter: false
+          indexable: false
+          enumeratorStaticItems: null
+          enumeratorStaticItemsSeparator: null
+          enumeratorExtractorBean: null
+          validationRules:
+            minLength: null
+            maxLength: null
+            regex: null
+            rangeStartString: null
+            rangeEndString: null
+            rangeStartStringAttribute: null
+            rangeEndStringAttribute: null
+            equalString: null
+            equalStringAttribute: null
+            rangeStartDate: null
+            rangeEndDate: null
+            rangeStartDateAttribute: null
+            rangeEndDateAttribute: null
+            equalDate: null
+            equalDateAttribute: null
+            rangeStartNumber: null
+            rangeStartNumberAttribute: null
+            rangeEndNumber: null
+            rangeEndNumberAttribute: null
+            equalNumber: null
+            equalNumberAttribute: null
+            ognlValidation: null
+          nestedAttribute: null
+          compositeAttributes: null
+  - code: otherinfo
+    type: Monolist
+    names:
+      it: Altre informazioni
+      en: altre informazioni
+    roles: []
+    disablingCodes: []
+    mandatory: false
+    listFilter: false
+    indexable: false
+    validationRules:
+      minLength: null
+      maxLength: null
+      regex: null
+      rangeStartString: null
+      rangeEndString: null
+      rangeStartStringAttribute: null
+      rangeEndStringAttribute: null
+      equalString: null
+      equalStringAttribute: null
+      rangeStartDate: null
+      rangeEndDate: null
+      rangeStartDateAttribute: null
+      rangeEndDateAttribute: null
+      equalDate: null
+      equalDateAttribute: null
+      rangeStartNumber: null
+      rangeStartNumberAttribute: null
+      rangeEndNumber: null
+      rangeEndNumberAttribute: null
+      equalNumber: null
+      equalNumberAttribute: null
+      ognlValidation: null
+    nestedAttribute:
+      code: otherinfo
+      type: Composite
+      name: null
+      names:
+        it: Altre informazioni
+        en: altre informazioni
+      roles: []
+      disablingCodes: []
+      mandatory: false
+      listFilter: false
+      indexable: false
+      enumeratorStaticItems: null
+      enumeratorStaticItemsSeparator: null
+      enumeratorExtractorBean: null
+      validationRules:
+        minLength: null
+        maxLength: null
+        regex: null
+        rangeStartString: null
+        rangeEndString: null
+        rangeStartStringAttribute: null
+        rangeEndStringAttribute: null
+        equalString: null
+        equalStringAttribute: null
+        rangeStartDate: null
+        rangeEndDate: null
+        rangeStartDateAttribute: null
+        rangeEndDateAttribute: null
+        equalDate: null
+        equalDateAttribute: null
+        rangeStartNumber: null
+        rangeStartNumberAttribute: null
+        rangeEndNumber: null
+        rangeEndNumberAttribute: null
+        equalNumber: null
+        equalNumberAttribute: null
+        ognlValidation: null
+      nestedAttribute: null
+      compositeAttributes:
+        - code: mdescr
+          type: Text
+          name: Titolo paragrafo
+          names:
+            it: titolo paragrafo
+            en: titolo paragrafo
+          roles: []
+          disablingCodes: []
+          mandatory: false
+          listFilter: false
+          indexable: false
+          enumeratorStaticItems: null
+          enumeratorStaticItemsSeparator: null
+          enumeratorExtractorBean: null
+          validationRules:
+            minLength: null
+            maxLength: null
+            regex: null
+            rangeStartString: null
+            rangeEndString: null
+            rangeStartStringAttribute: null
+            rangeEndStringAttribute: null
+            equalString: null
+            equalStringAttribute: null
+            rangeStartDate: null
+            rangeEndDate: null
+            rangeStartDateAttribute: null
+            rangeEndDateAttribute: null
+            equalDate: null
+            equalDateAttribute: null
+            rangeStartNumber: null
+            rangeStartNumberAttribute: null
+            rangeEndNumber: null
+            rangeEndNumberAttribute: null
+            equalNumber: null
+            equalNumberAttribute: null
+            ognlValidation: null
+          nestedAttribute: null
+          compositeAttributes: null
+        - code: mtitle
+          type: Hypertext
+          name: Descrizione del paragrafo
+          names:
+            it: Descrizione del paragrafo
+            en: paragraph description
+          roles: []
+          disablingCodes: []
+          mandatory: false
+          listFilter: false
+          indexable: false
+          enumeratorStaticItems: null
+          enumeratorStaticItemsSeparator: null
+          enumeratorExtractorBean: null
+          validationRules:
+            minLength: null
+            maxLength: null
+            regex: null
+            rangeStartString: null
+            rangeEndString: null
+            rangeStartStringAttribute: null
+            rangeEndStringAttribute: null
+            equalString: null
+            equalStringAttribute: null
+            rangeStartDate: null
+            rangeEndDate: null
+            rangeStartDateAttribute: null
+            rangeEndDateAttribute: null
+            equalDate: null
+            equalDateAttribute: null
+            rangeStartNumber: null
+            rangeStartNumberAttribute: null
+            rangeEndNumber: null
+            rangeEndNumberAttribute: null
+            equalNumber: null
+            equalNumberAttribute: null
+            ognlValidation: null
+          nestedAttribute: null
+          compositeAttributes: null
+        - code: mimage
+          type: Image
+          name: Immagine paragrafo
+          names:
+            it: Immagine paragrafo
+            en: Immagine paragrafo
+          roles: []
+          disablingCodes: []
+          mandatory: false
+          listFilter: false
+          indexable: false
+          enumeratorStaticItems: null
+          enumeratorStaticItemsSeparator: null
+          enumeratorExtractorBean: null
+          validationRules:
+            minLength: null
+            maxLength: null
+            regex: null
+            rangeStartString: null
+            rangeEndString: null
+            rangeStartStringAttribute: null
+            rangeEndStringAttribute: null
+            equalString: null
+            equalStringAttribute: null
+            rangeStartDate: null
+            rangeEndDate: null
+            rangeStartDateAttribute: null
+            rangeEndDateAttribute: null
+            equalDate: null
+            equalDateAttribute: null
+            rangeStartNumber: null
+            rangeStartNumberAttribute: null
+            rangeEndNumber: null
+            rangeEndNumberAttribute: null
+            equalNumber: null
+            equalNumberAttribute: null
+            ognlValidation: null
+          nestedAttribute: null
+          compositeAttributes: null
+  - code: contacts
+    type: Monolist
+    names:
+      it: Contatti
+      en: contatti
+    roles: []
+    disablingCodes: []
+    mandatory: false
+    listFilter: false
+    indexable: false
+    validationRules:
+      minLength: null
+      maxLength: null
+      regex: null
+      rangeStartString: null
+      rangeEndString: null
+      rangeStartStringAttribute: null
+      rangeEndStringAttribute: null
+      equalString: null
+      equalStringAttribute: null
+      rangeStartDate: null
+      rangeEndDate: null
+      rangeStartDateAttribute: null
+      rangeEndDateAttribute: null
+      equalDate: null
+      equalDateAttribute: null
+      rangeStartNumber: null
+      rangeStartNumberAttribute: null
+      rangeEndNumber: null
+      rangeEndNumberAttribute: null
+      equalNumber: null
+      equalNumberAttribute: null
+      ognlValidation: null
+    nestedAttribute:
+      code: contacts
+      type: Composite
+      name: null
+      names:
+        it: Contatti
+        en: contatti
+      roles: []
+      disablingCodes: []
+      mandatory: false
+      listFilter: false
+      indexable: false
+      enumeratorStaticItems: null
+      enumeratorStaticItemsSeparator: null
+      enumeratorExtractorBean: null
+      validationRules:
+        minLength: null
+        maxLength: null
+        regex: null
+        rangeStartString: null
+        rangeEndString: null
+        rangeStartStringAttribute: null
+        rangeEndStringAttribute: null
+        equalString: null
+        equalStringAttribute: null
+        rangeStartDate: null
+        rangeEndDate: null
+        rangeStartDateAttribute: null
+        rangeEndDateAttribute: null
+        equalDate: null
+        equalDateAttribute: null
+        rangeStartNumber: null
+        rangeStartNumberAttribute: null
+        rangeEndNumber: null
+        rangeEndNumberAttribute: null
+        equalNumber: null
+        equalNumberAttribute: null
+        ognlValidation: null
+      nestedAttribute: null
+      compositeAttributes:
+        - code: mtitle
+          type: Hypertext
+          name: Titolo paragrafo
+          names:
+            it: titolo paragrafo
+            en: titolo paragrafo
+          roles: []
+          disablingCodes: []
+          mandatory: false
+          listFilter: false
+          indexable: false
+          enumeratorStaticItems: null
+          enumeratorStaticItemsSeparator: null
+          enumeratorExtractorBean: null
+          validationRules:
+            minLength: null
+            maxLength: null
+            regex: null
+            rangeStartString: null
+            rangeEndString: null
+            rangeStartStringAttribute: null
+            rangeEndStringAttribute: null
+            equalString: null
+            equalStringAttribute: null
+            rangeStartDate: null
+            rangeEndDate: null
+            rangeStartDateAttribute: null
+            rangeEndDateAttribute: null
+            equalDate: null
+            equalDateAttribute: null
+            rangeStartNumber: null
+            rangeStartNumberAttribute: null
+            rangeEndNumber: null
+            rangeEndNumberAttribute: null
+            equalNumber: null
+            equalNumberAttribute: null
+            ognlValidation: null
+          nestedAttribute: null
+          compositeAttributes: null
+        - code: mimg
+          type: Image
+          name: Immagine paragrafo
+          names:
+            it: Immagine paragrafo
+            en: Immagine paragrafo
+          roles: []
+          disablingCodes: []
+          mandatory: false
+          listFilter: false
+          indexable: false
+          enumeratorStaticItems: null
+          enumeratorStaticItemsSeparator: null
+          enumeratorExtractorBean: null
+          validationRules:
+            minLength: null
+            maxLength: null
+            regex: null
+            rangeStartString: null
+            rangeEndString: null
+            rangeStartStringAttribute: null
+            rangeEndStringAttribute: null
+            equalString: null
+            equalStringAttribute: null
+            rangeStartDate: null
+            rangeEndDate: null
+            rangeStartDateAttribute: null
+            rangeEndDateAttribute: null
+            equalDate: null
+            equalDateAttribute: null
+            rangeStartNumber: null
+            rangeStartNumberAttribute: null
+            rangeEndNumber: null
+            rangeEndNumberAttribute: null
+            equalNumber: null
+            equalNumberAttribute: null
+            ognlValidation: null
+          nestedAttribute: null
+          compositeAttributes: null
+        - code: mlink
+          type: Link
+          name: link
+          names:
+            it: Link
+            en: link
+          roles: []
+          disablingCodes: []
+          mandatory: false
+          listFilter: false
+          indexable: false
+          enumeratorStaticItems: null
+          enumeratorStaticItemsSeparator: null
+          enumeratorExtractorBean: null
+          validationRules:
+            minLength: null
+            maxLength: null
+            regex: null
+            rangeStartString: null
+            rangeEndString: null
+            rangeStartStringAttribute: null
+            rangeEndStringAttribute: null
+            equalString: null
+            equalStringAttribute: null
+            rangeStartDate: null
+            rangeEndDate: null
+            rangeStartDateAttribute: null
+            rangeEndDateAttribute: null
+            equalDate: null
+            equalDateAttribute: null
+            rangeStartNumber: null
+            rangeStartNumberAttribute: null
+            rangeEndNumber: null
+            rangeEndNumberAttribute: null
+            equalNumber: null
+            equalNumberAttribute: null
+            ognlValidation: null
+          nestedAttribute: null
+          compositeAttributes: null

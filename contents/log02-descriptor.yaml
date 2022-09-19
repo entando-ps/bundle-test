@@ -1,0 +1,51 @@
+id: LOG02
+typeCode: LOG
+description: Logo Celio esempio
+mainGroup: free
+status: PUBLIC
+viewPage: sme_dettaglio
+listModel: '501'
+defaultModel: '501'
+attributes:
+  - code: title
+    value: null
+    values:
+      en: Esercito template generico
+      it: Esercito template generico
+    elements: []
+    compositeelements: []
+    listelements: {}
+  - code: subtitle
+    value: null
+    values:
+      en: Template example
+      it: Struttura di esempio
+    elements: []
+    compositeelements: []
+    listelements: {}
+  - code: img
+    value: null
+    values:
+      en:
+        correlationCode: '02'
+        name: LogoCeliofinito_adobespark.png
+      it:
+        correlationCode: '02'
+        name: LogoCeliofinito_adobespark.png
+    elements: []
+    compositeelements: []
+    listelements: {}
+  - code: link
+    value:
+      symbolicDestination: '#!P;sme_homepage!#'
+      destType: 2
+      urlDest: null
+      pageDest: sme_homepage
+      contentDest: null
+      resourceDest: null
+    values:
+      en: homepage sme
+      it: homepage sme
+    elements: []
+    compositeelements: []
+    listelements: {}

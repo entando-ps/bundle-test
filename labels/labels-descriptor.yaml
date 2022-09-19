@@ -1,0 +1,32 @@
+- key: SME_ALLEGATI
+  titles:
+    en: Attachments list
+    it: Lista degli allegati
+- key: SME_DETTAGLIO
+  titles:
+    en: Detail for
+    it: Dettaglio per
+- key: SME_DOWNLOAD
+  titles:
+    en: Download
+    it: Scarica
+- key: SME_READ_MORE
+  titles:
+    en: Read more
+    it: Approfondisci
+- key: SME_PORT_ES_TITLE
+  titles:
+    en: SME Template
+    it: SME Template
+- key: SME_NOTIFICA
+  titles:
+    en: Sezione notifiche
+    it: Sezione notifiche
+- key: SME_NO_ALLEGATI
+  titles:
+    en: Non sono presenti allegati al momento
+    it: Non sono presenti allegati al momento
+- key: SME_ADMINISTRATION
+  titles:
+    en: Administration
+    it: Amministrazione
