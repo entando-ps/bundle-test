@@ -45,6 +45,7 @@ components:
     - contentTypes/txt-descriptor.yaml
     - contentTypes/gud-descriptor.yaml
     - contentTypes/tst-descriptor.yaml
+    - contentTypes/glr-descriptor.yaml
   contentModels:
     - contentModels/sme-esempi-attributi-corso-(aaa)-descriptor.yaml
     - contentModels/sme-scheda-descrittiva-generica-(txt)-descriptor.yaml
